@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "cintlex.oldlighter.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "AmbientLight",
+    "AmbientLightExtractor",
+    "LightmapUBO"
+  ]
+}
